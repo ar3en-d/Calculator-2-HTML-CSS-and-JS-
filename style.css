@@ -1,0 +1,35 @@
+body {
+    display: flex;
+
+    margin: 0;
+    padding: 5em 0 2em;
+    text-align: center;
+    justify-content: center;
+    
+    background-image:
+    radial-gradient(50% 30% ellipse at center top, #000000 0%, rgba(0,0,0,0) 100%),
+    radial-gradient(60% 50% ellipse at center bottom, #000000  0%, #0eb13f 100%);
+  background-attachment: fixed;
+  
+
+  }
+
+
+.button{
+    width: 50px;
+    height: 50px ;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    background: rgb(2, 2, 2);
+    color: rgb(217, 255, 0);
+}
+
+.textview {
+width: 210px ;
+margin: 5px;
+font-size: 25px;
+padding: 5px;
+background: rgb(70, 68, 68);
+color:rgb(209, 197, 201) ;
+} 
